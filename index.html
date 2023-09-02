@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Rock Papper Scissor Game</title>
+  </head>
+  <body>
+    <form action="#">
+      <p class="input_text">Input your name and press enter key</p>
+      <input type="text" placeholder="Enter your name" class="input_name" />
+    </form>
+    <div class="container">
+      <h1>Rock Papper Scissor</h1>
+      <div class="bar">
+        <p class="score player_score">Score : 0</p>
+        <p class="score chance">chance 5 time</p>
+        <p class="score computer_score">Score : 0</p>
+      </div>
+      <div class="player_name_box">
+        <p class="player user">Player</p>
+        <img
+          src="./img/vintage-vs-with-black-lines-png-transparent-Images-12.png"
+          alt=""
+        />
+        <p class="player computer">Computer</p>
+      </div>
+      <div class="content">
+        <div class="icon_holder user_game_icon">
+          <img src="./img/rock.png" alt="" class="pic_user" />
+        </div>
+        <p class="result">Result</p>
+        <div class="icon_holder computer_game_icon">
+          <img src="./img/rock.png" alt="" class="pic_computer" />
+        </div>
+      </div>
+      <div class="user_icons">
+        <div class="icon">
+          <img class="click_icon rock" src="./img/rock.png" alt="rock" />
+          <img class="click_icon paper" src="./img/paper.png" alt="paper" />
+          <img
+            class="click_icon scissor"
+            src="./img/scissors.png"
+            alt="scissors"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="overlay hidden">
+      <div class="game_over_message">
+        <!-- <span>❌</span> -->
+        <h2 class="win_text">🏆 Computer WIN the game</h2>
+        <p class="game_over">GAME OVER</p>
+        <p>If you want to play again then reload the TAB / PAGE</p>
+      </div>
+    </div>
+  </body>
+</html>
